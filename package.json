@@ -11,7 +11,7 @@
         "lint": "tslint -p tsconfig.json",
         "prepare": "npm run build",
         "preversion": "npm run lint",
-        "prepublish": "npm run lint && npm run build"
+        "prepublishOnly": "npm test && npm run lint"
     },
     "repository": {
         "type": "git",
@@ -43,6 +43,6 @@
         "ramda": "0.27.0"
     },
     "files": [
-        "lib *"
+        "lib*"
     ]
 }
