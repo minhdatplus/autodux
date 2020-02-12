@@ -41,6 +41,7 @@
     },
     "files": [
         "lib",
-        "components"
+        "components",
+        "types"
     ]
 }
