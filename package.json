@@ -9,6 +9,8 @@
         "test": "jest --config jestconfig.json",
         "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
         "lint": "tslint -p tsconfig.json",
+        "prepare" : "npm run build",
+        "preversion" : "npm run lint",
         "prepublish": "npm run lint && npm run build"
     },
     "repository": {
@@ -41,6 +43,6 @@
         "ramda": "0.27.0"
     },
     "files": [
-        "lib **/*"
+        "lib *"
     ]
 }
