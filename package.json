@@ -3,7 +3,7 @@
     "version": "1.0.1",
     "description": "Support type for origin version autodux of Eric Elliott",
     "main": "lib/index.js",
-    "types": "lib/index.d.ts",
+    "types": "types/index.d.ts",
     "scripts": {
         "build": "tsc",
         "test": "jest --config jestconfig.json",
