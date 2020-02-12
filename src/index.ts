@@ -1,1 +1,3 @@
-export const Greeter = (name: string) => `Hello ${name}`;
+export { autodux, assign } from "./components/core";
+
+export { id } from "./components/heplers";
