@@ -1,6 +1,6 @@
 {
     "name": "autodux-ts",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Support type for origin version autodux of Eric Elliott",
     "main": "lib/index.js",
     "types": "types/index.d.ts",
